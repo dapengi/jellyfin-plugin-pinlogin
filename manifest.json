@@ -3,7 +3,7 @@
   "name": "JellyPin",
   "description": "Allows users to authenticate using a 4-digit PIN for quick access. Administrators can set and manage user PINs through the web interface.",
   "overview": "PIN-based authentication for quick login",
-  "owner": "LWE.Digital",
+  "owner": "jellyfin-pinlogin",
   "category": "Authentication",
   "versions": [
     {
@@ -11,7 +11,7 @@
       "changelog": "Admin restriction enforced, configuration saving fixed, build issues resolved",
       "targetAbi": "10.11.0.0",
       "sourceUrl": "https://github.com/dapengi/jellyfin-plugin-pinlogin/releases/download/v1.0.4/JellyPin-v1.0.4.zip",
-      "checksum": "bb7da117d6054f7fe364c3befa6de5ce",
+      "checksum": "046b31ba27bd08d5f2a4ee96b62dcedd",
       "timestamp": "2025-12-16T00:00:00Z"
     },
     {
