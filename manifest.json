@@ -7,11 +7,19 @@
   "category": "Authentication",
   "versions": [
     {
+      "version": "1.0.4.0",
+      "changelog": "Admin restriction enforced, configuration saving fixed, build issues resolved",
+      "targetAbi": "10.11.0.0",
+      "sourceUrl": "https://github.com/dapengi/jellyfin-plugin-pinlogin/releases/download/v1.0.4/JellyPin-v1.0.4.zip",
+      "checksum": "bb7da117d6054f7fe364c3befa6de5ce",
+      "timestamp": "2025-12-16T00:00:00Z"
+    },
+    {
       "version": "1.0.3.0",
       "changelog": "Renamed to JellyPin (was PIN Login)\n- 4-digit PIN authentication\n- Admin PIN management interface\n- Rate limiting and lockout protection\n- SHA256 PIN hashing\n- Support for all Jellyfin clients\n- Fixed configuration page for Jellyfin 10.11+",
       "targetAbi": "10.11.0.0",
       "sourceUrl": "https://github.com/dapengi/jellyfin-plugin-pinlogin/releases/download/v1.0.3/JellyPin-v1.0.3.zip",
-      "checksum": "af34ae8ee540c7fec9722fbbea1109fa",
+      "checksum": "477a2727bffe394166cd3073a6236ee9",
       "timestamp": "2025-12-15T22:10:00Z"
     },
     {
