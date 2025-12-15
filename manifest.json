@@ -1,9 +1,9 @@
 {
   "guid": "a4df60b5-9d4e-4c8f-a8c5-6e5f4d3c2b1a",
-  "name": "PIN Login",
+  "name": "JellyPin",
   "description": "Allows users to authenticate using a 4-digit PIN for quick access. Administrators can set and manage user PINs through the web interface.",
   "overview": "PIN-based authentication for quick login",
-  "owner": "jellyfin-pinlogin",
+  "owner": "LWE Digital",
   "category": "Authentication",
   "versions": [
     {
