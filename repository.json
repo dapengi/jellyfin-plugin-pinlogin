@@ -4,7 +4,7 @@
     "name": "JellyPin",
     "description": "Allows users to authenticate using a 4-digit PIN for quick access",
     "overview": "PIN-based authentication for quick login",
-    "owner": "jellyfin-pinlogin",
+    "owner": "LWE.Digital",
     "category": "Authentication",
     "imageUrl": "https://raw.githubusercontent.com/dapengi/jellyfin-plugin-pinlogin/main/icon.png",
     "versions": [
