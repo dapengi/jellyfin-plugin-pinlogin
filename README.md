@@ -5,7 +5,7 @@ A Jellyfin plugin that enables users to authenticate using a 4-digit PIN for qui
 ## Features
 
 - **4-Digit PIN Authentication**: Users can log in using a simple 4-digit PIN instead of full passwords
-- **Dual Authentication**: PIN for quick access, password still required for administrative functions
+- **Admin Security**: Administrators are required to use their full password (PIN login disabled for admins)
 - **Admin-Managed PINs**: Administrators set and manage user PINs through a web interface
 - **Security Features**:
   - PIN hashing (SHA256) - PINs are never stored in plaintext
