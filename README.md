@@ -1,4 +1,4 @@
-# Jellyfin PIN Login Plugin
+# Jellyfin JellyPin Plugin
 
 A Jellyfin plugin that enables users to authenticate using a 4-digit PIN for quick access, similar to the PIN login feature available in Jellyfin versions prior to 10.9.
 
@@ -28,7 +28,7 @@ A Jellyfin plugin that enables users to authenticate using a 4-digit PIN for qui
 2. Go to **Plugins** → **Repositories**
 3. Add the plugin repository URL (if you're hosting one)
 4. Navigate to **Catalog**
-5. Find "PIN Login" and click **Install**
+5. Find "JellyPin" and click **Install**
 6. Restart Jellyfin
 
 ### Method 2: Manual Installation
@@ -64,7 +64,7 @@ A Jellyfin plugin that enables users to authenticate using a 4-digit PIN for qui
 ### Initial Setup
 
 1. Log in to Jellyfin Dashboard as an administrator
-2. Navigate to **Dashboard** → **Plugins** → **PIN Login**
+2. Navigate to **Dashboard** → **Plugins** → **JellyPin**
 3. Configure security settings:
    - **Max Failed Attempts**: Number of failed PIN attempts before lockout (default: 5)
    - **Lockout Duration**: How long to lock out after failed attempts in minutes (default: 15)
@@ -72,7 +72,7 @@ A Jellyfin plugin that enables users to authenticate using a 4-digit PIN for qui
 
 ### Setting User PINs
 
-1. In the PIN Login configuration page, scroll to **User PIN Management**
+1. In the JellyPin configuration page, scroll to **User PIN Management**
 2. You'll see a list of all users with their PIN status
 3. Click the **edit** icon next to a user to set their PIN
 4. Enter a 4-digit PIN (numbers only)
@@ -132,7 +132,7 @@ When enabled, rate limiting provides:
 - Check Jellyfin logs for plugin loading errors
 - Ensure Jellyfin has been restarted after installation
 
-### PIN Login Not Working
+### JellyPin Not Working
 - Verify the user has a PIN set in the admin interface
 - Check that the PIN is exactly 4 digits
 - Verify rate limiting hasn't locked out the user
